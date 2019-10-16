@@ -19,6 +19,8 @@ To install the client library via NuGet:
 * Search for `Microsoft.Graph.Beta` in the NuGet Library, or
 * Type `Install-Package Microsoft.Graph.Beta` into the Package Manager Console.
 
+You will need to "Include prerelease" to find these packages.
+
 ## Using the beta client along with the v1.0 library
 
 Both the v1.0 and beta Microsoft Graph endpoints share the same namespace. This results in both the v1.0 and beta generated libraries sharing the same namespace. You can use the beta library by itself with no changes to your environment. If you plan to use the beta endpoint in addition to the v1.0 endpoint, you'l have a couple integration steps you'll need to follow to enable a beta client to be used alongside the v1.0 client which is obtained with the `Microsoft.Graph` (v1.0) NuGet package.
